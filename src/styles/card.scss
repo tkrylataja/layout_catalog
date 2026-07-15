@@ -20,13 +20,18 @@
   }
 
   &__image {
+    display: block;
+    margin: 0 auto 40px;
     width: 160px;
     height: 134px;
-    margin: 0 auto 40px;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url('../images/imac.jpeg');
+
+    // width: 160px;
+    // height: 134px;
+    // margin: 0 auto 40px;
+    // background-position: center;
+    // background-size: contain;
+    // background-repeat: no-repeat;
+    // background-image: url('../images/imac.jpeg');
   }
 
   &__title {
